@@ -1,0 +1,236 @@
+{
+  "chain_of_thought_openai-gpt-oss-120b_predictions.json": {
+    "strategy": "chain_of_thought",
+    "model": "openai-gpt-oss-120b",
+    "overall": {
+      "em": 0.425,
+      "f1": 0.6605441921896195,
+      "n": 40
+    },
+    "by_type": {
+      "arithmetic": {
+        "em": 0.3,
+        "f1": 0.4333333333333333,
+        "n": 10
+      },
+      "span": {
+        "em": 0.3,
+        "f1": 0.6889655172413793,
+        "n": 10
+      },
+      "multi-span": {
+        "em": 0.1,
+        "f1": 0.5198779181837653,
+        "n": 10
+      },
+      "count": {
+        "em": 1.0,
+        "f1": 1.0,
+        "n": 10
+      }
+    },
+    "total_failures": 23,
+    "partial_matches": 14,
+    "fail_by_type": {
+      "arithmetic": 7,
+      "span": 7,
+      "multi-span": 9,
+      "count": 0
+    }
+  },
+  "chain_of_thought_openai-gpt-oss-20b_predictions.json": {
+    "strategy": "chain_of_thought",
+    "model": "openai-gpt-oss-20b",
+    "overall": {
+      "em": 0.475,
+      "f1": 0.6653128078817734,
+      "n": 40
+    },
+    "by_type": {
+      "arithmetic": {
+        "em": 0.3,
+        "f1": 0.36666666666666664,
+        "n": 10
+      },
+      "span": {
+        "em": 0.5,
+        "f1": 0.7902988505747126,
+        "n": 10
+      },
+      "multi-span": {
+        "em": 0.2,
+        "f1": 0.6042857142857143,
+        "n": 10
+      },
+      "count": {
+        "em": 0.9,
+        "f1": 0.9,
+        "n": 10
+      }
+    },
+    "total_failures": 21,
+    "partial_matches": 10,
+    "fail_by_type": {
+      "arithmetic": 7,
+      "span": 5,
+      "multi-span": 8,
+      "count": 1
+    }
+  },
+  "router_openai-gpt-oss-120b_predictions.json": {
+    "strategy": "router",
+    "model": "openai-gpt-oss-120b",
+    "overall": {
+      "em": 0.475,
+      "f1": 0.716481895129808,
+      "n": 40
+    },
+    "by_type": {
+      "arithmetic": {
+        "em": 0.3,
+        "f1": 0.4333333333333333,
+        "n": 10
+      },
+      "span": {
+        "em": 0.5,
+        "f1": 0.7682637628554143,
+        "n": 10
+      },
+      "multi-span": {
+        "em": 0.1,
+        "f1": 0.6643304843304842,
+        "n": 10
+      },
+      "count": {
+        "em": 1.0,
+        "f1": 1.0,
+        "n": 10
+      }
+    },
+    "total_failures": 21,
+    "partial_matches": 13,
+    "fail_by_type": {
+      "arithmetic": 7,
+      "span": 5,
+      "multi-span": 9,
+      "count": 0
+    }
+  },
+  "router_openai-gpt-oss-20b_predictions.json": {
+    "strategy": "router",
+    "model": "openai-gpt-oss-20b",
+    "overall": {
+      "em": 0.5,
+      "f1": 0.6718429082162215,
+      "n": 40
+    },
+    "by_type": {
+      "arithmetic": {
+        "em": 0.3,
+        "f1": 0.36666666666666664,
+        "n": 10
+      },
+      "span": {
+        "em": 0.5,
+        "f1": 0.7933757736516356,
+        "n": 10
+      },
+      "multi-span": {
+        "em": 0.3,
+        "f1": 0.6273291925465838,
+        "n": 10
+      },
+      "count": {
+        "em": 0.9,
+        "f1": 0.9,
+        "n": 10
+      }
+    },
+    "total_failures": 20,
+    "partial_matches": 9,
+    "fail_by_type": {
+      "arithmetic": 7,
+      "span": 5,
+      "multi-span": 7,
+      "count": 1
+    }
+  },
+  "zero_shot_openai-gpt-oss-120b_predictions.json": {
+    "strategy": "zero_shot",
+    "model": "openai-gpt-oss-120b",
+    "overall": {
+      "em": 0.55,
+      "f1": 0.7400959958514138,
+      "n": 40
+    },
+    "by_type": {
+      "arithmetic": {
+        "em": 0.5,
+        "f1": 0.5,
+        "n": 10
+      },
+      "span": {
+        "em": 0.6,
+        "f1": 0.8112198142414861,
+        "n": 10
+      },
+      "multi-span": {
+        "em": 0.1,
+        "f1": 0.6491641691641691,
+        "n": 10
+      },
+      "count": {
+        "em": 1.0,
+        "f1": 1.0,
+        "n": 10
+      }
+    },
+    "total_failures": 18,
+    "partial_matches": 10,
+    "fail_by_type": {
+      "arithmetic": 5,
+      "span": 4,
+      "multi-span": 9,
+      "count": 0
+    }
+  },
+  "zero_shot_openai-gpt-oss-20b_predictions.json": {
+    "strategy": "zero_shot",
+    "model": "openai-gpt-oss-20b",
+    "overall": {
+      "em": 0.55,
+      "f1": 0.7110301003344481,
+      "n": 40
+    },
+    "by_type": {
+      "arithmetic": {
+        "em": 0.5,
+        "f1": 0.5,
+        "n": 10
+      },
+      "span": {
+        "em": 0.5,
+        "f1": 0.8132991452991453,
+        "n": 10
+      },
+      "multi-span": {
+        "em": 0.3,
+        "f1": 0.6308212560386472,
+        "n": 10
+      },
+      "count": {
+        "em": 0.9,
+        "f1": 0.9,
+        "n": 10
+      }
+    },
+    "total_failures": 18,
+    "partial_matches": 8,
+    "fail_by_type": {
+      "arithmetic": 5,
+      "span": 5,
+      "multi-span": 7,
+      "count": 1
+    }
+  }
+}

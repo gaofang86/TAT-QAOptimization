@@ -1,0 +1,298 @@
+{
+  "meta": {
+    "dataset": "TAT-QA dev",
+    "n_per_type": 10,
+    "total_n": 40,
+    "models": [
+      "openai-gpt-oss-120b",
+      "openai-gpt-oss-20b"
+    ],
+    "strategies": [
+      "zero_shot",
+      "chain_of_thought",
+      "router"
+    ]
+  },
+  "runs": [
+    {
+      "strategy": "chain_of_thought",
+      "model": "openai-gpt-oss-120b",
+      "overall_em": 0.425,
+      "overall_f1": 0.6605441921896195,
+      "weighted_f1": 0.6151020204183623,
+      "total_tokens": 32999,
+      "total_cost_usd": 0.098997,
+      "cost_per_correct": 0.0058233529411764705,
+      "avg_latency_s": 4.739554274082184,
+      "total_failures": 23,
+      "partial_matches": 14,
+      "by_type": {
+        "arithmetic": {
+          "em": 0.3,
+          "f1": 0.4333333333333333,
+          "n": 10
+        },
+        "span": {
+          "em": 0.3,
+          "f1": 0.6889655172413793,
+          "n": 10
+        },
+        "multi-span": {
+          "em": 0.1,
+          "f1": 0.5198779181837653,
+          "n": 10
+        },
+        "count": {
+          "em": 1.0,
+          "f1": 1.0,
+          "n": 10
+        }
+      },
+      "fail_by_type": {
+        "arithmetic": 7,
+        "span": 7,
+        "multi-span": 9,
+        "count": 0
+      }
+    },
+    {
+      "strategy": "chain_of_thought",
+      "model": "openai-gpt-oss-20b",
+      "overall_em": 0.475,
+      "overall_f1": 0.6653128078817734,
+      "weighted_f1": 0.6055835796387521,
+      "total_tokens": 34506,
+      "total_cost_usd": 0.103518,
+      "cost_per_correct": 0.005448315789473684,
+      "avg_latency_s": 5.305709511041641,
+      "total_failures": 21,
+      "partial_matches": 10,
+      "by_type": {
+        "arithmetic": {
+          "em": 0.3,
+          "f1": 0.36666666666666664,
+          "n": 10
+        },
+        "span": {
+          "em": 0.5,
+          "f1": 0.7902988505747126,
+          "n": 10
+        },
+        "multi-span": {
+          "em": 0.2,
+          "f1": 0.6042857142857143,
+          "n": 10
+        },
+        "count": {
+          "em": 0.9,
+          "f1": 0.9,
+          "n": 10
+        }
+      },
+      "fail_by_type": {
+        "arithmetic": 7,
+        "span": 5,
+        "multi-span": 8,
+        "count": 1
+      }
+    },
+    {
+      "strategy": "router",
+      "model": "openai-gpt-oss-120b",
+      "overall_em": 0.475,
+      "overall_f1": 0.716481895129808,
+      "weighted_f1": 0.659852182770513,
+      "total_tokens": 43698,
+      "total_cost_usd": 0.131094,
+      "cost_per_correct": 0.006899684210526315,
+      "avg_latency_s": 4.817547255754471,
+      "total_failures": 21,
+      "partial_matches": 13,
+      "by_type": {
+        "arithmetic": {
+          "em": 0.3,
+          "f1": 0.4333333333333333,
+          "n": 10
+        },
+        "span": {
+          "em": 0.5,
+          "f1": 0.7682637628554143,
+          "n": 10
+        },
+        "multi-span": {
+          "em": 0.1,
+          "f1": 0.6643304843304842,
+          "n": 10
+        },
+        "count": {
+          "em": 1.0,
+          "f1": 1.0,
+          "n": 10
+        }
+      },
+      "fail_by_type": {
+        "arithmetic": 7,
+        "span": 5,
+        "multi-span": 9,
+        "count": 0
+      }
+    },
+    {
+      "strategy": "router",
+      "model": "openai-gpt-oss-20b",
+      "overall_em": 0.5,
+      "overall_f1": 0.6718429082162215,
+      "weighted_f1": 0.6108076599063105,
+      "total_tokens": 45582,
+      "total_cost_usd": 0.136746,
+      "cost_per_correct": 0.0068373,
+      "avg_latency_s": 5.257234537601471,
+      "total_failures": 20,
+      "partial_matches": 9,
+      "by_type": {
+        "arithmetic": {
+          "em": 0.3,
+          "f1": 0.36666666666666664,
+          "n": 10
+        },
+        "span": {
+          "em": 0.5,
+          "f1": 0.7933757736516356,
+          "n": 10
+        },
+        "multi-span": {
+          "em": 0.3,
+          "f1": 0.6273291925465838,
+          "n": 10
+        },
+        "count": {
+          "em": 0.9,
+          "f1": 0.9,
+          "n": 10
+        }
+      },
+      "fail_by_type": {
+        "arithmetic": 7,
+        "span": 5,
+        "multi-span": 7,
+        "count": 1
+      }
+    },
+    {
+      "strategy": "zero_shot",
+      "model": "openai-gpt-oss-120b",
+      "overall_em": 0.55,
+      "overall_f1": 0.7400959958514138,
+      "weighted_f1": 0.692076796681131,
+      "total_tokens": 28742,
+      "total_cost_usd": 0.086226,
+      "cost_per_correct": 0.003919363636363637,
+      "avg_latency_s": 2.694043684005737,
+      "total_failures": 18,
+      "partial_matches": 10,
+      "by_type": {
+        "arithmetic": {
+          "em": 0.5,
+          "f1": 0.5,
+          "n": 10
+        },
+        "span": {
+          "em": 0.6,
+          "f1": 0.8112198142414861,
+          "n": 10
+        },
+        "multi-span": {
+          "em": 0.1,
+          "f1": 0.6491641691641691,
+          "n": 10
+        },
+        "count": {
+          "em": 1.0,
+          "f1": 1.0,
+          "n": 10
+        }
+      },
+      "fail_by_type": {
+        "arithmetic": 5,
+        "span": 4,
+        "multi-span": 9,
+        "count": 0
+      }
+    },
+    {
+      "strategy": "zero_shot",
+      "model": "openai-gpt-oss-20b",
+      "overall_em": 0.55,
+      "overall_f1": 0.7110301003344481,
+      "weighted_f1": 0.6688240802675586,
+      "total_tokens": 29084,
+      "total_cost_usd": 0.087252,
+      "cost_per_correct": 0.003966,
+      "avg_latency_s": 3.6313419461250307,
+      "total_failures": 18,
+      "partial_matches": 8,
+      "by_type": {
+        "arithmetic": {
+          "em": 0.5,
+          "f1": 0.5,
+          "n": 10
+        },
+        "span": {
+          "em": 0.5,
+          "f1": 0.8132991452991453,
+          "n": 10
+        },
+        "multi-span": {
+          "em": 0.3,
+          "f1": 0.6308212560386472,
+          "n": 10
+        },
+        "count": {
+          "em": 0.9,
+          "f1": 0.9,
+          "n": 10
+        }
+      },
+      "fail_by_type": {
+        "arithmetic": 5,
+        "span": 5,
+        "multi-span": 7,
+        "count": 1
+      }
+    }
+  ],
+  "failure_patterns": [
+    {
+      "id": "scale_contamination",
+      "name": "Scale/Unit Contamination",
+      "description": "Model appends 'million' or '%' to numeric answers copied from table headers",
+      "affected": "arithmetic",
+      "frequency": "high",
+      "fix": "Post-process: strip units from numeric predictions"
+    },
+    {
+      "id": "span_truncation",
+      "name": "Span Truncation",
+      "description": "Model paraphrases instead of exact-quoting source text",
+      "affected": "span",
+      "frequency": "medium",
+      "fix": "Prompt: instruct model to copy verbatim from source"
+    },
+    {
+      "id": "multispan_format",
+      "name": "Multi-span Format Mismatch",
+      "description": "Correct values but wrong order, case, or delimiter \u2192 EM=0",
+      "affected": "multi-span",
+      "frequency": "high",
+      "fix": "Normalize: sort spans, lowercase, strip punctuation before eval"
+    },
+    {
+      "id": "count_unit",
+      "name": "Count Unit Leakage",
+      "description": "Model adds unit to count answers ('2 years' vs '2')",
+      "affected": "count",
+      "frequency": "low",
+      "fix": "Post-process: extract first numeric token from count predictions"
+    }
+  ]
+}

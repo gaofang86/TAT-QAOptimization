@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/gaoyingzi/TAT-QA/mlruns/537313429301301142/e2b8145847e548089ab7441ec0a9f466/artifacts
+end_time: 1771710798925
+entry_point_name: ''
+experiment_id: '537313429301301142'
+lifecycle_stage: active
+run_id: e2b8145847e548089ab7441ec0a9f466
+run_name: zero_shot_openai/gpt-oss-20b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1771710783173
+status: 3
+tags: []
+user_id: gaoyingzi

@@ -1,0 +1,56 @@
+[
+  {
+    "strategy": "zero_shot",
+    "model": "openai/gpt-oss-120b",
+    "weighted_f1": 0.692076796681131,
+    "total_tokens": 28742,
+    "total_cost_usd": 0.086226,
+    "cost_per_correct": 0.003919363636363637,
+    "avg_latency_s": 2.694043684005737
+  },
+  {
+    "strategy": "chain_of_thought",
+    "model": "openai/gpt-oss-120b",
+    "weighted_f1": 0.6151020204183623,
+    "total_tokens": 32999,
+    "total_cost_usd": 0.098997,
+    "cost_per_correct": 0.0058233529411764705,
+    "avg_latency_s": 4.739554274082184
+  },
+  {
+    "strategy": "router",
+    "model": "openai/gpt-oss-120b",
+    "weighted_f1": 0.659852182770513,
+    "total_tokens": 43698,
+    "total_cost_usd": 0.131094,
+    "cost_per_correct": 0.006899684210526315,
+    "avg_latency_s": 4.817547255754471
+  },
+  {
+    "strategy": "zero_shot",
+    "model": "openai/gpt-oss-20b",
+    "weighted_f1": 0.6688240802675586,
+    "total_tokens": 29084,
+    "total_cost_usd": 0.087252,
+    "cost_per_correct": 0.003966,
+    "avg_latency_s": 3.6313419461250307
+  },
+  {
+    "strategy": "chain_of_thought",
+    "model": "openai/gpt-oss-20b",
+    "weighted_f1": 0.6055835796387521,
+    "total_tokens": 34506,
+    "total_cost_usd": 0.103518,
+    "cost_per_correct": 0.005448315789473684,
+    "avg_latency_s": 5.305709511041641
+  },
+  {
+    "strategy": "router",
+    "model": "openai/gpt-oss-20b",
+    "weighted_f1": 0.6108076599063105,
+    "total_tokens": 45582,
+    "total_cost_usd": 0.136746,
+    "cost_per_correct": 0.0068373,
+    "avg_latency_s": 5.257234537601471
+  }
+]

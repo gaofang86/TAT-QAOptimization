@@ -1,0 +1,154 @@
+[
+  {
+    "uid": "eb787966-fa02-401f-bfaf-ccabf3828b23",
+    "answer_type": "arithmetic",
+    "prediction": "",
+    "gold": -12.6,
+    "derivation": "44.1-56.7",
+    "scale": "million"
+  },
+  {
+    "uid": "05b670d3-5b19-438c-873f-9bf6de29c69e",
+    "answer_type": "arithmetic",
+    "prediction": "",
+    "gold": -22.22,
+    "derivation": "(44.1-56.7)/56.7",
+    "scale": "percent"
+  },
+  {
+    "uid": "b2786c1a-37de-4120-b03c-32bf5c81f157",
+    "answer_type": "arithmetic",
+    "prediction": "",
+    "gold": -94,
+    "derivation": "680-774",
+    "scale": "million"
+  },
+  {
+    "uid": "fe11f001-3bfe-4089-8108-412676f0a780",
+    "answer_type": "arithmetic",
+    "prediction": "",
+    "gold": -12.14,
+    "derivation": "(680-774)/774",
+    "scale": "percent"
+  },
+  {
+    "uid": "23801627-ff77-4597-8d24-1c99e2452082",
+    "answer_type": "span",
+    "prediction": "",
+    "gold": [
+      "our allowable incurred costs plus a profit which can be fixed or variable depending on the contract\u2019s fee arrangement up to predetermined funding levels determined by the customer"
+    ],
+    "derivation": "",
+    "scale": ""
+  },
+  {
+    "uid": "4960801d-277d-4f79-8eca-c4d0200fa9d6",
+    "answer_type": "span",
+    "prediction": "",
+    "gold": [
+      "$1,496.5"
+    ],
+    "derivation": "",
+    "scale": "million"
+  },
+  {
+    "uid": "f4142349-eb72-49eb-9a76-f3ccb1010cbc",
+    "answer_type": "span",
+    "prediction": "",
+    "gold": [
+      "2019"
+    ],
+    "derivation": "1,496.5>1,202.9>1,107.7",
+    "scale": ""
+  },
+  {
+    "uid": "86ae8d77-4dcd-4f82-baac-61c6a2551760",
+    "answer_type": "span",
+    "prediction": "",
+    "gold": [
+      "consistently with our internal management reporting and may be revised periodically as management deems necessary."
+    ],
+    "derivation": "",
+    "scale": ""
+  },
+  {
+    "uid": "593c4388-5209-4462-8b83-b429c8612c25",
+    "answer_type": "multi-span",
+    "prediction": "",
+    "gold": [
+      "fixed-price type",
+      "cost-plus type",
+      "time-and-material type"
+    ],
+    "derivation": "",
+    "scale": ""
+  },
+  {
+    "uid": "b1018041-1c58-47f2-94db-fa8df0a631cb",
+    "answer_type": "multi-span",
+    "prediction": "",
+    "gold": [
+      "2019",
+      "2018",
+      "2017"
+    ],
+    "derivation": "",
+    "scale": ""
+  },
+  {
+    "uid": "d841005e-c88b-4071-aa53-16bd8a892656",
+    "answer_type": "multi-span",
+    "prediction": "",
+    "gold": [
+      "Transportation Solutions",
+      "Industrial Solutions",
+      "Communications Solutions"
+    ],
+    "derivation": "",
+    "scale": ""
+  },
+  {
+    "uid": "d47306cf-e276-4836-a827-ebebdc47e078",
+    "answer_type": "multi-span",
+    "prediction": "",
+    "gold": [
+      "Defined contribution schemes",
+      "Defined benefit schemes",
+      ""
+    ],
+    "derivation": "",
+    "scale": ""
+  },
+  {
+    "uid": "8f61e8be-18ee-4226-bb65-e1d1b4dfa8ec",
+    "answer_type": "count",
+    "prediction": "",
+    "gold": "4",
+    "derivation": "The expected life input is based on historical exercise patterns and post-vesting termination behavior##the risk-free interest rate input is based on U.S. Treasury instruments##the annualized dividend yield input is based on the per share dividend declared by the Board##the volatility input is calculated based on the implied volatility of our publicly traded options.",
+    "scale": ""
+  },
+  {
+    "uid": "3d384cee-82de-48f1-98ff-a972404bce4c",
+    "answer_type": "count",
+    "prediction": "",
+    "gold": "1",
+    "derivation": "Impairment charges",
+    "scale": ""
+  },
+  {
+    "uid": "54df78bf-1e81-4ebe-ba8d-278fee472ffd",
+    "answer_type": "count",
+    "prediction": "",
+    "gold": "2",
+    "derivation": "Net losses on sales or disposals of assets##Other operating expenses",
+    "scale": ""
+  },
+  {
+    "uid": "cc4f532d-dcd5-43d9-886a-66a3c2029e4d",
+    "answer_type": "count",
+    "prediction": "",
+    "gold": "2",
+    "derivation": "2018##2017",
+    "scale": ""
+  }
+]

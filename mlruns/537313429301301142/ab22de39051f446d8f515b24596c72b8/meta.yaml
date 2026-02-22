@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/gaoyingzi/TAT-QA/mlruns/537313429301301142/ab22de39051f446d8f515b24596c72b8/artifacts
+end_time: 1771639957681
+entry_point_name: ''
+experiment_id: '537313429301301142'
+lifecycle_stage: active
+run_id: ab22de39051f446d8f515b24596c72b8
+run_name: zero_shot
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1771639930465
+status: 4
+tags: []
+user_id: gaoyingzi

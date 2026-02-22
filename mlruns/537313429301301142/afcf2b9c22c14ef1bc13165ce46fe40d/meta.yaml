@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/gaoyingzi/TAT-QA/mlruns/537313429301301142/afcf2b9c22c14ef1bc13165ce46fe40d/artifacts
+end_time: 1771649656830
+entry_point_name: ''
+experiment_id: '537313429301301142'
+lifecycle_stage: active
+run_id: afcf2b9c22c14ef1bc13165ce46fe40d
+run_name: chain_of_thought
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1771649654776
+status: 3
+tags: []
+user_id: gaoyingzi
