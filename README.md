@@ -9,6 +9,11 @@ A multi-agent evaluation framework for financial question answering on the [TAT-
 **→ [Live Dashboard](https://huggingface.co/spaces/fang8/Multi-Agent_Financial_QA_Optimization_Engine)**
 
 ![Dashboard Preview](docs/assets/title.png)
+![Strategy Comparison](docs/assets/1.png)
+![Performance](docs/assets/2.png)
+![Router decision](docs/assets/3.png)
+![Failure](docs/assets/4.png)
+![Trade-off](docs/assets/5.png)
 
 ---
 
